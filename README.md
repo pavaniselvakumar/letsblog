@@ -1,7 +1,7 @@
-# 📝 LetsBlog
-LetsBlog is a simple and intuitive blogging application where users can: ✍️ Create and publish blogs 🛠️ Edit or delete their own blog posts 👀 View all blog posts 💬 Comment on blog posts 🙍‍♂️ Manage their user profile 🔐 Register and log in securely
+📝 LetsBlog  
+LetsBlog is a simple and intuitive full-stack blogging application where users can: ✍️ Create and publish blogs · 🛠️ Edit or delete their own blog posts · 👀 View all blog posts · 💬 Comment on posts · 🙍‍♂️ Manage user profiles · 🔐 Register and log in securely.  
 
-## 🚀 Tech Stack
+🚀 Tech Stack  
 Frontend: React + TypeScript + Vite  
 Styling: Tailwind CSS  
 Backend: Node.js + Express  
@@ -9,7 +9,7 @@ Authentication: JWT (JSON Web Token)
 API Handling: Axios  
 State Management: React Context API  
 
-## 📦 Getting Started
+📦 Getting Started  
 Clone the repository  
 git clone https://github.com/pavaniselvakumar/letsblog.git  
 cd letsblog  
@@ -23,7 +23,7 @@ cd ../server
 npm install  
 
 Add environment variables  
-Create a `.env` file in the `server` directory with the following:  
+Create a .env file in the server directory with the following:  
 PORT=5000  
 MONGO_URI=your_mongodb_connection_string  
 JWT_SECRET=your_jwt_secret  
@@ -36,9 +36,4 @@ Run the frontend
 cd ../client  
 npm run dev  
 
-## 📁 Project Structure
-letsblog/  
-├── client/        # React + TypeScript frontend  
-├── server/        # Node.js + Express backend  
-
-> 🔗 Repo maintained by [Pavani Selvakumar](https://github.com/pavaniselvakumar)
+🔗 Repo maintained by Pavani Selvakumar (https://github.com/pavaniselvakumar)
